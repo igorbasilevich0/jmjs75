@@ -31,7 +31,7 @@ break;
 result = "Dia de la setmana : 7";
 break;
 default:
-alert("Se ha acabado");
+result= alert("Te has equivocado");
 };
 
 dia.innerHTML=result;
