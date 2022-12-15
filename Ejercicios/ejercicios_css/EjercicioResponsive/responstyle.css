@@ -1,0 +1,50 @@
+*,
+::before,
+::after{
+    margin:0px;
+}
+html,body{
+    width:100vw;
+    min-height: 100vh;
+    background-image:url(images/bg.png); 
+
+}
+
+header{
+    text-align: center;
+    margin: 2rem;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+
+
+}
+
+
+article{
+
+    background-image: url(/EjercicioResponsive/images/bgButton.png);
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    
+}
+
+a img{
+    display: block; 
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    color: aliceblue;
+}

@@ -1,0 +1,63 @@
+*,::before,::after{
+
+    margin:0px;
+
+}
+html,body{
+    padding: 0;
+    width:80vw;
+    height: 100vh;
+    background-color:#bfc2b0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+
+}
+
+ h1{
+    text-align: right;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:#2b2575;
+    /* padding: 1rem; */
+
+}
+
+h2{
+    clear: both;
+    background-color: #5b6235;
+    color: aliceblue;
+
+
+}
+
+
+.wrapper{
+    font-size: 18px;
+    margin: 1rem;
+}
+
+
+
+
+p{
+   margin: 1.5rem; 
+}
+
+.izq{
+    float:left;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.der{
+    float: right;
+    display: block;
+}
+
+
+
+.centrado{
+    text-align: center;
+}
