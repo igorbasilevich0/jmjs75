@@ -1,0 +1,31 @@
+*,::before,::after{
+    margin: 0px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+   height: 100vh;
+   
+
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div{
+    
+    height: 80%;
+    width: 80%;
+    background-color: blueviolet;
+    
+    
+    
+    
+
+}
